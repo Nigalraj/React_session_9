@@ -4,7 +4,6 @@ const api = axios.create({
   baseURL: 'https://api.escuelajs.co/api/v1',
 });
 
-// Existing functions
 export const fetchProduct = async (id) => {
   const response = await api.get(`/products/${id}`);
   return response.data;

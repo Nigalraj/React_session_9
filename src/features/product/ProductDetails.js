@@ -1,4 +1,3 @@
-// features/product/ProductDetails.js
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { useFetchProductQuery } from './apiSlice';
